@@ -1,7 +1,21 @@
+body{  
+   background-color: #ebecee
+}
+
+
 .cabecalho{
 
   display: flex;
   justify-content: space-between;
+  background-color: white;
+}
+
+.container{
+
+margin: 0px 20px;
+padding: 0.5em;
+
+
 }
 .menu-machiche{
 
