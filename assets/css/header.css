@@ -30,7 +30,10 @@ background-repeat: no-repeat;
 
 .menu-lista{
 
-display:none
+display:none;
+position:absolut;
+width:60vw;
+
 
 
 }
