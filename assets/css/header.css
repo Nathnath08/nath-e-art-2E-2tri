@@ -14,7 +14,6 @@ body{
 
 margin: 0px 20px;
 padding: 0.5em;
-background-color:white;
 
 
 }
@@ -32,27 +31,23 @@ background-repeat: no-repeat;
 .menu-lista {
 
 display:none;
-position:absolut;
-width:70vw;
+position:absolute;
+width:60vw;
 
 }
-
+.lista-titulo, .lista-item{
+  background-color: white;
+  padding: 1em;
+}
 .lista-titulo{
 
-  background-color: var(--branco);
   color: var(--laranja);
 
-     
 }
+.menu-checkbox{
+   display: none;
 
-
-
+}
 .menu-checkbox:checked  ~ .menu-lista{
 display: block;
-}
-
-.lista-item{
-
-  padding: 1em;
-  background-color:honeydew;
 }
