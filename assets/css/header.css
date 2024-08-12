@@ -15,14 +15,14 @@ body{
     align-items: center;
 }
 .lista-titulo{
-    background-color: var(--branco);
+   background-color: var(--branco); 
     color: var(--laranja);
 }
 .menu-aba{
     width: 24px;
     height: 24px;
     display: inline-block;
-    background-image: url(../img/Menu.svg);
+    background-image: url(../img/AluraBooks/Menu.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -41,4 +41,5 @@ body{
 .menu-checkbox{
     display: none;
 }
+
 

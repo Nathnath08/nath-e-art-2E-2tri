@@ -22,8 +22,9 @@
     border-radius: 24px;
     padding: 1em;
     width: 100%;
-    background: url(../img/AluraBooks/Pesquisa.svg);        
+    background: url(../img/AluraBooks/Pesquisa.svg) no-repeat;  
     background-position: 1em;
+    text-align: center;
  }
 
 .banner-pesquisa::placeholder{
