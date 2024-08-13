@@ -1,3 +1,9 @@
 .carrosel-titulo{
+  color: orange;  
     background-color: white;
+    text-align: center;
+    text-transform: ;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1em 0;
 }
