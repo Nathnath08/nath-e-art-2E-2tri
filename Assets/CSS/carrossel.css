@@ -41,24 +41,16 @@
     font-weight:700;
     font-size:20px;
 }
-
-
-
-.descricao-livro{
-font-weight:700;
-font-size:20px;
-}
 .descricao-texto{
+font-weight:700;
 font-size:14px;
 }
- .botao-ancora{
-background-color: var(--laranja);
-padding: 1em 2.2em;
-font-weight: 700;
-text-decoration: none;
-
-
-
+.botao-ancora{
+    background-color: var(--laranja);
+    padding:1em 2.2em;
+    color:var(--branco);
+    font-weight:700;
+    text-decoration: none;
 }
 .descricao-livro{
     color: var(--azul);
@@ -66,11 +58,7 @@ text-decoration: none;
     font-weight:700;
     margin: 0.5em 0;
 }
-.descricao-titulo-livro{
-    color: var(--azul);
-    font-size: 18px;
-    font-weight: 700;
-    margin: 0.5em 0s;
-
+.topicos{
+    display:flex;
 }
 
