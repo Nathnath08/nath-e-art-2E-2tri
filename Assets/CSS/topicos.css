@@ -1,10 +1,9 @@
 .topicos{
 background-image: var(--azul-degrade);
 text-align: center;
-padding:1em 0;
+padding: 1em 0;
 }
-
-.topicos-titulo{
+.topicos-titulos{
     color: var(--branco);
     font-weight: 300;
     text-transform: uppercase;
@@ -15,15 +14,20 @@ padding:1em 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
 }
-.topicos-item{
+
+.topico-item{
     margin: 2em 0.5em;
 }
+
 .topicos-link{
-    text-decoration: none; /* tira o sublinhado do link */
-    color: var(--branco); /* muda cor pra branco*/
-    background-color: var(--laranja); /* muda a cor de fundo pra laranja */
-    padding: 1em; /* afasta os links da borda, ou seja inernamente */    
-    font-size: 14px; /* tamanho da fonte */
-    font-weight: 700; /* peso da fonte */
+    text-decoration: none;
+    color: var(--branco);
+    background-color: var(--laranja);
+    padding: 1em;
+    font-size: 14px;
+    font-weight: 700;
+   
+
 }
